@@ -23,4 +23,11 @@ VALUES
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-( )
+('Tanjiro', 'Kamado', 4, NULL)
+('Zenitsu', 'Agatsuma', 3, NULL)
+('Inosuke', 'Hashibara', 2, NULL)
+('Kanao', 'Tsuyuri', 1, NULL)
+('Giyu', 'Tomioka', 2, 1)
+('Shinobu', 'Kocho', 1, 2)
+('Nezuko', 'Kamado', 3, 3)
+('Kyojuro', 'Rengoku', 4, 1)
