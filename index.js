@@ -1,6 +1,6 @@
-const { prompt } = require("inquirer");
+const { prompt } = require('inquirer');
 const db = require("./db");
-require("console.table");
+require('console.table');
 
 init();
 
@@ -105,7 +105,7 @@ function createRole() {
     db.allDepartments()
         .then(([rows]) => {
             let department = rows;
-            const departmentChoices = departments.map(({ id, name }) => ({
+            const departmentChoices = department.map(({ id, name }) => ({
                 name: name,
                 value: id
             }));

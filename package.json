@@ -1,0 +1,27 @@
+{
+  "name": "keeping-track",
+  "version": "1.0.0",
+  "description": "A command-line application used to turn input into html and render it into a page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node db/seeds.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kait-kat/Keeping-Track.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kait-kat/Keeping-Track/issues"
+  },
+  "homepage": "https://github.com/kait-kat/Keeping-Track#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^9.1.4",
+    "jquery": "^3.6.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0"
+  }
+}

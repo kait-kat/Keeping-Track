@@ -3,9 +3,9 @@ CREATE DATABASE employees;
 
 USE employees;
 
-CREATE TABLE department (
+CREATE TABLE department(
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) UNIQUE NOT NULL
+    dept VARCHAR(50) UNIQUE NOT NULL
 );
 
 CREATE TABLE role(
@@ -14,7 +14,7 @@ CREATE TABLE role(
     salary DECIMAL UNSIGNED NOT NULL,
     department_id INT UNSIGNED NOT NULL,
     INDEX dep_ind (department_id),
-    CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENES department(id) ON DELETE CASCADE
+    CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE
 );
 
 CREATE TABLE employee(
