@@ -36,7 +36,7 @@ class employeeDB {
         );
     }
 
-    addrole(role) {
+    addRole(role) {
         return this.connection.promise().query("INSERT INTO role SET ?", role
         );
     }
