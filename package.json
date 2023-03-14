@@ -8,7 +8,6 @@
     "seed": "node db/seeds.sql"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/kait-kat/Keeping-Track.git"
   },
   "author": "",
@@ -19,9 +18,11 @@
   "homepage": "https://github.com/kait-kat/Keeping-Track#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^9.1.4",
+    "express": "^4.18.2",
+    "inquirer": "^8.0.0",
     "jquery": "^3.6.4",
     "mysql": "^2.18.1",
-    "mysql2": "^3.2.0"
+    "mysql2": "^3.2.0",
+    "node": "^16.14.0"
   }
 }
