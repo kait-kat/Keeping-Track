@@ -45,7 +45,7 @@ function runPrompts() {
                     value: "UPDATE_EMPLOYEE"
                 },
                 {
-                    name: "Exit",
+                    name: "Quit",
                     value: "QUIT"
                 }
             ]
@@ -73,9 +73,6 @@ function runPrompts() {
                 break;
             case "UPDATE_EMPLOYEE":
                 updateEmployee();
-                break;
-                default:
-                    quit();
         }
     })
 }

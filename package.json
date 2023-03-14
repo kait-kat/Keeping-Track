@@ -1,11 +1,12 @@
 {
   "name": "keeping-track",
   "version": "1.0.0",
-  "description": "A command-line application used to turn input into html and render it into a page.",
+  "description": "A command-line application used to turn input and update an employee database",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node db/seeds.sql"
+    "seed": "node db/index.js"
   },
   "repository": {
     "url": "git+https://github.com/kait-kat/Keeping-Track.git"
