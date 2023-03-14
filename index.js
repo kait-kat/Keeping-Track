@@ -8,7 +8,6 @@ function init() {
     runPrompts();
 }
 
-//this index will contain all the prompts to be able to update the employee info and view it//
 
 function runPrompts() {
     prompt([
@@ -80,8 +79,6 @@ function runPrompts() {
         }
     })
 }
-
-//these functions will pertain to the view choices in the prompts//
 
 function viewAllEmployees() {
     db.allEmployees()
