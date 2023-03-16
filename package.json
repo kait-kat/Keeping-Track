@@ -4,9 +4,9 @@
   "description": "A command-line application used to turn input and update an employee database",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node db/index.js"
+    "seed": "mysql2 db/employees_db.db < db/seeds.sql"
   },
   "repository": {
     "url": "git+https://github.com/kait-kat/Keeping-Track.git"
@@ -19,11 +19,8 @@
   "homepage": "https://github.com/kait-kat/Keeping-Track#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "express": "^4.18.2",
     "inquirer": "^8.0.0",
-    "jquery": "^3.6.4",
     "mysql": "^2.18.1",
-    "mysql2": "^3.2.0",
-    "node": "^16.14.0"
+    "mysql2": "^3.2.0"
   }
 }
