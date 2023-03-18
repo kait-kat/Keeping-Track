@@ -24,7 +24,7 @@ VALUES
 ('Tanjiro', 'Kamado', 4, NULL),
 ('Zenitsu', 'Agatsuma', 3, NULL),
 ('Inosuke', 'Hashibara', 2, NULL),
-('Kanao', 'Tsuyuri', 1, NULL),.
+('Kanao', 'Tsuyuri', 1, NULL),
 ('Giyu', 'Tomioka', 2, 91),
 ('Shinobu', 'Kocho', 1, 62),
 ('Nezuko', 'Kamado', 3, 94),

@@ -4,7 +4,7 @@
   "description": "A command-line application used to turn input and update an employee database",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "mysql2 db/employees_db.db < db/seeds.sql"
   },
@@ -21,6 +21,7 @@
     "console.table": "^0.10.0",
     "inquirer": "^8.0.0",
     "mysql": "^2.18.1",
-    "mysql2": "^3.2.0"
+    "mysql2": "^3.2.0",
+    "promise-mysql": "^5.2.0"
   }
 }
